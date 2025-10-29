@@ -1,0 +1,20 @@
+{
+  "name": "markdown-viewer",
+  "version": "1.0.0",
+  "description": "一个功能完整的 Markdown 文档查看器，支持导航、搜索、主题切换等功能",
+  "main": "index.html",
+  "scripts": {
+    "config": "node generate-config.js",
+    "serve": "python3 -m http.server 8000",
+    "start": "npm run config && npm run serve"
+  },
+  "keywords": [
+    "markdown",
+    "viewer",
+    "documentation",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
